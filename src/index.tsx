@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import { BrowserRouter } from 'react-router-dom'
+import { RecoilRoot } from 'recoil'
+import 'normalize.css'
 
 
 const root = ReactDOM.createRoot(
@@ -8,7 +11,11 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <div>Ola, Mundo</div>
+    <BrowserRouter>
+      <RecoilRoot>
+        <div>Ola, Mundo</div>
+      </RecoilRoot>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
