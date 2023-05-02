@@ -1,0 +1,42 @@
+@import 'styles/_variaveis.scss';
+
+.sorteio{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
+    button{
+        display: flex;
+        column-gap: 1em;
+        font-size: 2rem;
+        color:$vermelhoVivo;
+        padding: .5em 1em;
+        border-radius: 1em;
+        border: 3px solid $vermelhoVivo;
+        &:hover{
+            cursor: pointer;
+            box-shadow: 0 0 9px $vermelhoSOmbra;
+        }
+    }
+    h2{
+        text-align: center;
+        font-family: $fonteTitulos;
+        color: $vermelhoVivo;
+    }
+    &__desistir{
+        font-size: 2.4rem;
+        text-decoration: underline;
+    }
+
+    &__resultado{
+        text-align: center;
+        font-family: $fonteTitulos;
+        color: $azulDestaque;
+        font-size: 2rem;
+        padding: 2em;
+        background-color: $beje;
+        box-shadow: 3px 3px 9px black;
+        border-radius: 2rem;
+    }
+}

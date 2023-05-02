@@ -1,0 +1,25 @@
+@import 'styles/_variaveis.scss';
+
+
+.lista{
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: $fonteTitulos;
+    display: flex;
+    flex-direction:column;
+    margin: 0;
+    padding: 0;   
+    
+
+    li{  
+        text-align: center;      
+        list-style: none;
+        color: $vermelhoVivo;
+        text-decoration: underline;
+        padding: .5em 1em;
+        border-radius: 1em;
+        background-color: $cinzaClaro; 
+        margin: 1em 0;
+        box-shadow: 3px 3px 9px black;     
+    }
+}

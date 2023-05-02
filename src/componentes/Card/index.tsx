@@ -1,7 +1,15 @@
 import React from 'react'
+import styles from './Card.module.scss';
 
-export default function Card() {
+interface ICard{  
+  children: React.ReactNode
+
+}
+
+export default function Card({children}:ICard) {
   return (
-    <div>Card</div>
+    <section className={styles.card}>      
+      {children}
+    </section>
   )
 }

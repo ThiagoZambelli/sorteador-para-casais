@@ -8,7 +8,7 @@
 
 &nbsp;
 
-
+![Alt text](src/assets/O%20que%20vamos%20assistir.png)
 
 
 &nbsp;
@@ -36,7 +36,6 @@
 
 - [Projeto](#projeto)
 - [Problemas e Soluções](#problemas__solucoes)
-- [Aulas](#aulas)
 
 &nbsp;
 

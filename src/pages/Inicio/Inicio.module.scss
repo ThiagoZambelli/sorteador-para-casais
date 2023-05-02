@@ -1,0 +1,35 @@
+@import 'styles/_variaveis.scss';
+
+.iniciar{
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8rem;
+        border-radius: 1em;
+        column-gap: 1em;
+        padding: .2em 1em;
+    }
+    .habilitado{
+        background-color: $azulClaro;
+        color: $vermelhoVivo;
+        border-color: $vermelhoVivo;
+
+        &:hover{
+            
+        color: $vermelhoVivo;
+        border-color: $vermelhoVivo;
+        box-shadow: 0 0 10px $vermelhoVivo;
+        cursor: pointer;
+        &:active{
+            box-shadow: none;
+            border: none;
+        }
+        }
+    }
+}
