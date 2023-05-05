@@ -25,6 +25,7 @@ export default function PaginaSorteio() {
 
   return (
     <div className={styles.sorteio}>
+      {repeticao > 0 &&<h2> Clique em 'Sortear' para tentar outra vez.</h2>}
       <button
         onClick={sorteando}
       >
