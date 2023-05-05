@@ -20,7 +20,7 @@ export default function CadastroForm() {
 
   return (
     <>
-    <h2 className={styles.info}>Digite ao menos 3 opções para iniciar !</h2>
+    <h2 className={styles.info}>Digite 3 ou mais opções para iniciar !</h2>
     <form onSubmit={adicionarEscolha} className={styles.formulario}>      
       <input
         ref={inputRef}
